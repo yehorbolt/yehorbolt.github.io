@@ -110,3 +110,17 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 33px;
 }
+
+.hr_1{
+    border: none; /* Убираем границу */
+    background-color: rgb(24, 62, 150); /* Цвет линии */
+    color: rgb(24, 62, 150); /* Цвет линии для IE6-7 */
+    height: 2px; /* Толщина линии */
+}
+
+.end{
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
