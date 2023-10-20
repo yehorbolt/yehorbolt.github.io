@@ -1,7 +1,7 @@
 
 /* element */
 body{
-  background: linear-gradient(45deg,#40abe4, #afc1ca) no-repeat center center fixed;
+  background: #D1C7CF;
   background-size: 100% 100%;
  
 }
@@ -31,8 +31,13 @@ body{
 .box_1{
     background-repeat: no-repeat;
     flex:25;
+    padding-bottom: 0px;
+   
 }
 
+.marg_1{
+    margin-bottom: 0px;
+}
 
 .image_1{
     background: url(../images/chad.jpg);
@@ -41,16 +46,9 @@ body{
     border-radius: 300px; 
     background-repeat: no-repeat;
     display: block;
-    border: 5px solid #a084ec;
+    border: 5px solid #143642;
     background-size: 300px 300px;
 }
-
-.image_1:hover{
-    background: url(../images/chad1.jpg);
-    background-repeat: no-repeat;
-    transition: all 0.5s ease-in-out;
-}
-
 
 .box_2{
     margin-left: 35px;
@@ -68,24 +66,35 @@ body{
 
 
 .g_hub{
-    background: url(../images/g_hub_32.png);
+    background: url(../images/g_hub.png);
     display: inline-block;
     width: 32px;
     height: 32px;
+    background-size: 32px 32px;
 }
  
 .l_in{
-    background: url(../images/l_in_32.png);
+    background: url(../images/l_in.png);
     display: inline-block;
     width: 32px;
     height: 32px;
+    background-size: 32px 32px;
 }
 
-.i_gram{
-    background: url(../images/i_gram_32.png);
-    display: inline-block;
-    width: 32px;
-    height: 32px;
+.no_margin {
+    line-height: 0;
+}
+
+.no_margin1 {
+    padding: 0px;
+}
+
+.div_ex{
+    padding-bottom: 25px;
+}
+
+.div_ex1{
+    padding-bottom: 10px;
 }
 
 .my_inf{
@@ -121,9 +130,10 @@ body{
 
 .hr_1{
     border: none;
-    background-color: #a084ec; 
-    color: #a084ec; 
+    background-color: #143642; 
+    color: #143642; 
     height: 2px; 
+    margin: 2rem;
 }
 
 .end{
@@ -135,11 +145,12 @@ body{
 
 .g_link{
     text-decoration: none;
-    color: #586dad;
+    color: #10168C;
 }
 
 .g_link:hover{
-    color: #3d6084;
+    text-decoration: underline;
+    color: #02053d;
 }
 
 
@@ -179,19 +190,16 @@ body{
         font-size: 12px;
     }
     .g_hub{
-        background: url(../images/g_hub_30.png);
+        background: url(../images/g_hub.png);
         width: 30px;
         height: 30px;
+        background-size: 30px 30px;
     }
     .l_in{
-        background: url(../images/l_in_30.png);
+        background: url(../images/l_in.png);
         width: 30px;
         height: 30px;
-    }
-    .i_gram{
-        background: url(../images/i_gram_30.png);
-        width: 30px;
-        height: 30px;
+        background-size: 30px 30px;
     }
 }
 
@@ -209,9 +217,6 @@ body{
         border-radius: 200px; 
         border: 4px solid #a084ec;
         background-size: 200px 200px;
-    }
-    .image_1:hover{
-        background: url(../images/chad1.jpg);
     }
     .box_2{
         font-size: 20px;
@@ -232,19 +237,16 @@ body{
         font-size: 10px;
     }
     .g_hub{
-        background: url(../images/g_hub_26.png);
+        background: url(../images/g_hub.png);
         width: 26px;
         height: 26px;
+        background-size: 26px 26px;
     }
     .l_in{
-        background: url(../images/l_in_26.png);
+        background: url(../images/l_in.png);
         width: 26px;
         height: 26px;
-    }
-    .i_gram{
-        background: url(../images/i_gram_26.png);
-        width: 26px;
-        height: 26px;
+        background-size: 26px 26px;
     }
 }
 
@@ -267,9 +269,6 @@ body{
         height: 150px;
         border-radius: 150px; 
         background-size: 150px 150px;
-    }
-    .image_1:hover{
-        background: url(../images/chad1.jpg);
     }
     .box_2{
         margin-left: 15px;
@@ -294,19 +293,16 @@ body{
         font-size: 12px;
     }
     .g_hub{
-        background: url(../images/g_hub_22.png);
+        background: url(../images/g_hub.png);
         width: 22px;
         height: 22px;
+        background-size: 22px 22px;
     }
     .l_in{
-        background: url(../images/l_in_22.png);
+        background: url(../images/l_in.png);
         width: 22px;
         height: 22px;
-    }
-    .i_gram{
-        background: url(../images/i_gram_22.png);
-        width: 22px;
-        height: 22px;
+        background-size: 22px 22px;
     }
 }
 
@@ -323,10 +319,7 @@ body{
         height: 110px;
         border-radius: 110px; 
         background-size: 110px 110px;
-        border: 2px solid #a084ec;
-    }
-    .image_1:hover{
-        background: url(../images/chad1.jpg);
+        border: 2px solid #143642;
     }
     .box_2{
         font-size: 12px;
@@ -347,19 +340,16 @@ body{
         font-size: 10px;
     }
     .g_hub{
-        background: url(../images/g_hub_16.png);
+        background: url(../images/g_hub.png);
         width: 16px;
         height: 16px;
+        background-size: 16px 16px;
     }
     .l_in{
-        background: url(../images/l_in_16.png);
+        background: url(../images/l_in.png);
         width: 16px;
         height: 16px;
-    }
-    .i_gram{
-        background: url(../images/i_gram_16.png);
-        width: 16px;
-        height: 16px;
+        background-size: 16px 16px;
     }
 }
 
@@ -376,10 +366,7 @@ body{
         height: 80px;
         border-radius: 80px; 
         background-size: 80px 80px;
-        border: 2px solid #a084ec;
-    }
-    .image_1:hover{
-        background: url(../images/chad1.jpg);
+        border: 2px solid #143642;
     }
     .box_2{
         font-size: 12px;
@@ -400,18 +387,21 @@ body{
         font-size: 10px;
     }
     .g_hub{
-        background: url(../images/g_hub_16.png);
+        background: url(../images/g_hub.png);
         width: 16px;
         height: 16px;
+        background-size: 16px 16px;
     }
     .l_in{
-        background: url(../images/l_in_16.png);
+        background: url(../images/l_in.png);
         width: 16px;
         height: 16px;
-    }
-    .i_gram{
-        background: url(../images/i_gram_16.png);
-        width: 16px;
-        height: 16px;
+        background-size: 16px 16px;
     }
 }
+
+@media print {
+    .g_link {
+    text-decoration: underline;
+    }
+    }
