@@ -109,6 +109,10 @@ body{
     font-size: 28px;
 }
 
+.l_box5{
+    list-style: none;
+}
+
 #m_sk{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 33px;
