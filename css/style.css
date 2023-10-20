@@ -49,7 +49,6 @@ body{
     background: url(../images/chad1.jpg);
     background-repeat: no-repeat;
     transition: all 0.5s ease-in-out;
-    background-size: 300px 300px;
 }
 
 
@@ -160,7 +159,6 @@ body{
     }
     .image_1:hover{
         background: url(../images/chad1.jpg);
-        background-size: 250px 250px;
     }
     .box_2{
         font-size: 24px;
@@ -210,7 +208,6 @@ body{
         height: 200px;
         border-radius: 200px; 
         border: 4px solid #a084ec;
-        background-size: 150px 150px;
     }
     .image_1:hover{
         background: url(../images/chad1.jpg);
@@ -273,7 +270,6 @@ body{
     }
     .image_1:hover{
         background: url(../images/chad1.jpg);
-        background-size: 150px 150px;
     }
     .box_2{
         margin-left: 15px;
@@ -331,7 +327,6 @@ body{
     }
     .image_1:hover{
         background: url(../images/chad1.jpg);
-        background-size: 110px 110px;
     }
     .box_2{
         font-size: 12px;
