@@ -35,17 +35,18 @@ body{
 
 
 .image_1{
-    background: url(../images/chad_300.jpg);
+    background: url(../images/chad.jpg);
     width: 300px;
     height: 300px;
     border-radius: 300px; 
     background-repeat: no-repeat;
+    background-size: 300px 300px;
     display: block;
     border: 5px solid #a084ec;
 }
 
 .image_1:hover{
-    background: url(../images/chad1_300.jpg);
+    background: url(../images/chad1.jpg);
     background-repeat: no-repeat;
     transition: all 0.5s ease-in-out;
 }
@@ -150,13 +151,14 @@ body{
         max-width: 1130px;
     }
     .image_1{
-        background: url(../images/chad_250.jpg);
+        background: url(../images/chad.jpg);
         width: 250px;
         height: 250px;
+        background-size: 250px 250px;
         border-radius: 250px; 
     }
     .image_1:hover{
-        background: url(../images/chad1_250.jpg);
+        background: url(../images/chad1.jpg);
     }
     .box_2{
         font-size: 24px;
@@ -201,14 +203,15 @@ body{
         max-width: 922px;
     }
     .image_1{
-        background: url(../images/chad_200.jpg);
+        background: url(../images/chad.jpg);
         width: 200px;
         height: 200px;
         border-radius: 200px; 
+        background-size: 200px 200px;
         border: 4px solid #a084ec;
     }
     .image_1:hover{
-        background: url(../images/chad1_200.jpg);
+        background: url(../images/chad1.jpg);
     }
     .box_2{
         font-size: 20px;
@@ -259,13 +262,14 @@ body{
         padding-right: 15px;
     }
     .image_1{
-        background: url(../images/chad_150.jpg);
+        background: url(../images/chad.jpg);
         width: 150px;
         height: 150px;
+        background-size: 150px 150px;
         border-radius: 150px; 
     }
     .image_1:hover{
-        background: url(../images/chad1_150.jpg);
+        background: url(../images/chad1.jpg);
     }
     .box_2{
         margin-left: 15px;
@@ -314,14 +318,15 @@ body{
         max-width: none;
     }
     .image_1{
-        background: url(../images/chad_110.jpg);
+        background: url(../images/chad.jpg);
         width: 110px;
         height: 110px;
         border-radius: 110px; 
+        background-size: 110px 110px;
         border: 2px solid #a084ec;
     }
     .image_1:hover{
-        background: url(../images/chad1_110.jpg);
+        background: url(../images/chad1.jpg);
     }
     .box_2{
         font-size: 12px;
@@ -366,14 +371,15 @@ body{
         max-width: none;
     }
     .image_1{
-        background: url(../images/chad_80.jpg);
+        background: url(../images/chad.jpg);
         width: 80px;
         height: 80px;
         border-radius: 80px; 
+        background-size: 80px 80px;
         border: 2px solid #a084ec;
     }
     .image_1:hover{
-        background: url(../images/chad1_80.jpg);
+        background: url(../images/chad1.jpg);
     }
     .box_2{
         font-size: 12px;
