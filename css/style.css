@@ -51,7 +51,10 @@ a:hover {
 
 .contact-links a {
     display: flex;
+<<<<<<< HEAD
     align-items: center;
+=======
+>>>>>>> ffc3168 (pretty fix😘)
 }
 
 .contact-links a::before {
@@ -61,6 +64,7 @@ a:hover {
     margin-right: 0.3rem;
 }
 
+<<<<<<< HEAD
 .svg-icon {
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
@@ -102,6 +106,16 @@ li {
     mask-image: url(../images/linkedin.svg);
 }
 
+=======
+
+.g_hub::before {
+    content: url(../images/square-github.svg);
+}
+
+.l_in::before {
+    content: url(../images/linkedin.svg);
+}
+>>>>>>> ffc3168 (pretty fix😘)
 
 /* class */
 .my_name {
