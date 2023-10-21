@@ -32,7 +32,10 @@ body{
     background-repeat: no-repeat;
     flex:25;
     padding-bottom: 0px;
-   
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .marg_1{
@@ -46,7 +49,7 @@ body{
     border-radius: 300px; 
     background-repeat: no-repeat;
     display: block;
-    border: 5px solid #143642;
+    border: 3px solid #143642;
     background-size: 300px 300px;
 }
 
@@ -130,9 +133,10 @@ body{
 
 .hr_1{
     border: none;
+    size: 5px;
     background-color: #143642; 
     color: #143642; 
-    height: 2px; 
+    height: 3px; 
     margin: 2rem;
 }
 
