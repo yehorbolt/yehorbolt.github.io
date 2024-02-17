@@ -61,14 +61,47 @@ a:hover {
     margin-right: 0.3rem;
 }
 
-
-.g_hub::before {
-    content: url(../images/square-github.svg);
+.svg-icon {
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100%;
+    mask-size: 100%;
+    transition: all 0.2s ease-in-out;
+    display: inline-block;
+  
+    height: 40px;
+    width: 40px;
+    background-color: black;
 }
 
-.l_in::before {
-    content: url(../images/linkedin.svg);
+ul {
+    padding-inline-start: 0;
 }
+
+ul.contact-links a {
+    display: flex;
+    gap: 10px;
+  }
+
+li {
+    list-style-type: none;
+}
+
+#telegram-icon {
+    -webkit-mask-image: url(../images/telegram.svg);
+    mask-image: url(../images/telegram.svg);
+}
+
+#ghub-icon {
+    -webkit-mask-image: url(../images/square-github.svg);
+    mask-image: url(../images/square-github.svg);
+  }
+
+#lin-icon {
+    -webkit-mask-image: url(../images/linkedin.svg);
+    mask-image: url(../images/linkedin.svg);
+}
+
 
 /* class */
 .my_name {
