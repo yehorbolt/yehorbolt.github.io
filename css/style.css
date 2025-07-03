@@ -400,7 +400,7 @@ hr {
 .end {
   display: flex;
   justify-content: center;
-  font-size: 16px;
+  font-size: 1.2rem;
 }
 
 @media (max-width: 1200px) {
@@ -625,7 +625,7 @@ hr {
 }
 
 @media print {
-  .g_link {
+  a {
     text-decoration: underline;
   }
 }
