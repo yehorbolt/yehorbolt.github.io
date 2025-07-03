@@ -9,9 +9,12 @@
 body {
   background: #d1c7cf;
   background-size: 100% 100%;
+  position: relative;
+}
+
+body > article {
   margin-left: 7rem;
   margin-right: 7rem;
-  position: relative;
 }
 
 .bg,
@@ -625,7 +628,7 @@ hr {
 }
 
 @media print {
-  a {
+  /* a {
     text-decoration: underline;
-  }
+  } */
 }
